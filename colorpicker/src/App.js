@@ -8,7 +8,7 @@ export default function ColorPicker() {
   };
 
   return (
-    <div>
+    <div style={{ display: "flex", alignItems: "center" }}>
       <h2>Color Picker</h2>
       <input type="color" value={color} onChange={handleChange} />
       <div
